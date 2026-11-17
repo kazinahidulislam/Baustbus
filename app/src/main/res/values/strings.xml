@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Baustbus</string>
+    <string name="bus_info_format">%1$s\nRoute: %2$s\nDeparture: %3$s\nFare: %4$s</string>
+    <string name="bkash_payment_info">Bkash: %1$s</string>
+    <string name="bus_id">বাস আইডি: %1$s</string>
+    <string name="user_id">ইউজার আইডি: %1$s</string>
+    <string name="status">স্ট্যাটাস: %1$s</string>
+    <string name="timestamp">সময়: %1$s</string>
+</resources>

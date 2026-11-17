@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Bus Name Input -->
+        <EditText
+            android:id="@+id/etBusName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Bus Name"
+            android:maxLines="1"/>
+
+        <!-- Route Input -->
+        <EditText
+            android:id="@+id/etRoute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Route (format: from-to)"
+            android:maxLines="1"/>
+
+        <!-- Departure Time Input -->
+        <EditText
+            android:id="@+id/etDeparture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Departure Time"
+            android:maxLines="1"/>
+
+        <!-- Arrival Time Input -->
+        <EditText
+            android:id="@+id/etArrival"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Arrival Time"
+            android:maxLines="1"/>
+
+        <!-- Fare Input -->
+        <EditText
+            android:id="@+id/etFare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fare"
+            android:inputType="number"
+            android:maxLines="1"/>
+
+        <!-- Add Bus Button -->
+        <Button
+            android:id="@+id/btnAddBus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Bus"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

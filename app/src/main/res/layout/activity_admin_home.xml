@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Bus Management Button -->
+    <Button
+        android:id="@+id/btnBusMgmt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bus Management"
+        android:layout_margin="8dp"/>
+
+    <!-- Booking List Button -->
+    <Button
+        android:id="@+id/btnBookingList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Booking List"
+        android:layout_margin="8dp"/>
+
+    <!-- Payment Management Button -->
+    <Button
+        android:id="@+id/btnPaymentMgmt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payment Management"
+        android:layout_margin="8dp"/>
+
+</LinearLayout>

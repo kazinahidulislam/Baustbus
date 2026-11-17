@@ -1,0 +1,28 @@
+
+# Gradle
+.gradle/
+**/build/
+
+# Android Studio
+.idea/
+*.iml
+
+# Local machine configuration
+local.properties
+
+# Android native build files
+.cxx/
+.externalNativeBuild/
+captures/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Signing credentials
+*.jks
+*.keystore
+key.properties
+
+# Firebase configuration
+app/google-services.json

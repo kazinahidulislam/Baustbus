@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Bus Information TextView -->
+    <TextView
+        android:id="@+id/tvBusInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Payment Number TextView -->
+    <TextView
+        android:id="@+id/tvPaymentNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#008800"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Book Ticket Button -->
+    <Button
+        android:id="@+id/btnBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Booking"/>
+
+    <!-- Call for Help Button -->
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call for Help"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>

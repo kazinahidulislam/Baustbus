@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Bkash Number Input -->
+    <EditText
+        android:id="@+id/etBkash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bkash Number"
+        android:inputType="phone"
+        android:maxLength="11"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Bkash Number Field"/>
+
+    <!-- Nagad Number Input -->
+    <EditText
+        android:id="@+id/etNagad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nagad Number"
+        android:inputType="phone"
+        android:maxLength="11"
+        android:layout_marginTop="16dp"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Nagad Number Field"/>
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/btnSaveNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Numbers"
+        android:layout_marginTop="24dp"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Save Button for Payment Numbers"/>
+
+</LinearLayout>
